@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+        <p>Your ultimate destination for [insert purpose]</p>
+    </header>
+
+    <section id="features">
+        <div class="feature">
+            <h2>Feature 1</h2>
+            <p>Description of Feature 1</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 2</h2>
+            <p>Description of Feature 2</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 3</h2>
+            <p>Description of Feature 3</p>
+        </div>
+    </section>
+
+    <section id="cta">
+        <h2>Subscribe Now!</h2>
+        <p>Get exclusive updates and offers straight to your inbox.</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<style.css>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
